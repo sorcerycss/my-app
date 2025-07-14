@@ -1,13 +1,92 @@
+/* === RESET === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* ============================================================================ */
+
+/* === MAIN === */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* ============================================================================ */
+
+/* === TYPOGRAPHY === */
+/* TITLE */
+.title {
+}
+
+/* SUBTITLE */
+.subtitle {
+}
+
+/* ============================================================================ */
+
+/* === LAYOUT === */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: #f0f0f0;
+  background-color: #282c34;
+}
+
+.container {
+  display: flex;
+}
+
+.crate {
+  border: 1px solid #f3deba;
+}
+
+.balance {
+  border: 1px solid #f3deba;
+}
+
+/* ============================================================================ */
+
+/* === BUTTON === */
+/* BROWSE CASES */
+.btn {
+  cursor: pointer;
+  padding: 1.25em 2em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 3em;
+}
+
+/* LOG IN */
+.login {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 1.225rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #000;
+}
+/* ============================================================================ */
+
+/* === SELL CRATE === */
+.sell-crate {
+  padding: 2em;
+}
+/* ============================================================================ */
